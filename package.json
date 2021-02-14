@@ -1,10 +1,9 @@
 {
   "name": "wdio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio"
+    "test": "wdio"
   },
   "author": "",
   "license": "ISC",
@@ -14,11 +13,23 @@
     "@wdio/mocha-framework": "^5.23.0",
     "@wdio/spec-reporter": "^5.23.0",
     "@wdio/sync": "^5.23.0",
-    "chromedriver": "^78.0.1",
+    "chromedriver": "^88.0.0",
     "eslint": "^6.6.0",
     "eslint-plugin-wdio": "^5.13.2",
     "prettier": "^1.18.2",
     "wdio-chromedriver-service": "^5.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulioPazini/WDIO_DEMO_1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JulioPazini/WDIO_DEMO_1/issues"
+  },
+  "homepage": "https://github.com/JulioPazini/WDIO_DEMO_1#readme",
+  "description": ""
 }
